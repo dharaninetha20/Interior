@@ -455,7 +455,7 @@
     line-height: 62px;
   }
   .banner_outer {
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
   }
   .banner_outer .header {
     padding: 0px 10px;
@@ -491,6 +491,7 @@
     top: 0px;
     padding: 20px 30px;
     margin-left: 70px;
+    width: 160px;
   }
   .banner_outer .social-icons ul {
     right: 16px;
@@ -931,7 +932,7 @@
 }
 @media screen and (min-width: 1300px) and (max-width: 1399px) {
   .banner_outer {
-    padding-bottom: 130px;
+    /* padding-bottom: 130px; */
   }
   .banner_outer .header {
     padding: 0px 30px;
@@ -947,7 +948,9 @@
     top: 24px;
   }
   .banner-section {
-    padding: 45px 80px 50px 70px;
+    /* padding: 45px 80px 50px 70px; */
+    /* padding: 0px 80px 50px 70px; */
+    padding: 0px 60px 50px 50px;
   }
   .banner-section .banner-backgroundimage {
     right: unset;
@@ -957,7 +960,7 @@
     width: 95%;
   }
   .banner-section .progress {
-    top: 105px;
+    top: 145px;
     right: 215px;
   }
   .banner-section .pagination-outer {
@@ -982,6 +985,9 @@
   /* sub-banner */
   .sub-banner {
     padding-bottom: 130px;
+  }
+  .sub-banner1 {
+    padding-bottom: 0px !important;
   }
   .sub-banner .header {
     padding: 0px 30px;
